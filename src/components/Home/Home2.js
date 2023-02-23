@@ -27,7 +27,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              My field of Interest's are building innovative&nbsp;
+              My field of Interests are building innovative&nbsp;
               <i>
                 <b className="purple">visual designs and products </b>  for web and print media.{" "}
               </i>
