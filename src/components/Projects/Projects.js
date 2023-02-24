@@ -9,6 +9,10 @@ import fourth from "../../Assets/Projects/4.png";
 import fifth from "../../Assets/Projects/5.png";
 import sixth from "../../Assets/Projects/6.png";
 import ATLANTA from "../../Assets/Projects/7.png";
+import eight from "../../Assets/Projects/8.png";
+import nine from "../../Assets/Projects/9.png";
+import ten from "../../Assets/Projects/10.png";
+import eleven from "../../Assets/Projects/11.png";
 
 function Projects() {
   return (
@@ -26,7 +30,7 @@ function Projects() {
             <ProjectCard
               imgPath={first}
               isBlog={false}
-              title="AERMREA"
+              title="AERMREA - Logo"
             />
           </Col>
 
@@ -34,7 +38,7 @@ function Projects() {
             <ProjectCard
               imgPath={second}
               isBlog={false}
-              title="AERMREA"
+              title="AERMREA - Logo"
             />
           </Col>
 
@@ -42,7 +46,7 @@ function Projects() {
             <ProjectCard
               imgPath={third}
               isBlog={false}
-              title="AERMREA"
+              title="AERMREA - Logo"
             />
           </Col>
 
@@ -50,7 +54,7 @@ function Projects() {
             <ProjectCard
               imgPath={fifth}
               isBlog={false}
-              title="ALFAHD ALSOUDY"
+              title="ALFAHD ALSOUDY - Logo"
             />
           </Col>
 
@@ -58,7 +62,7 @@ function Projects() {
             <ProjectCard
               imgPath={sixth}
               isBlog={false}
-              title="ALFAHD ALSOUDY"
+              title="ALFAHD ALSOUDY - Logo"
             />
           </Col>
 
@@ -66,7 +70,7 @@ function Projects() {
             <ProjectCard
               imgPath={fourth}
               isBlog={false}
-              title="ALFAHD ALSOUDY"
+              title="ALFAHD ALSOUDY - Logo"
             />
           </Col>
 
@@ -74,7 +78,39 @@ function Projects() {
             <ProjectCard
               imgPath={ATLANTA}
               isBlog={false}
-              title="ATLANTA"
+              title="ATLANTA - Logo"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={eight}
+              isBlog={false}
+              title="Nsro - Buisness Card"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={nine}
+              isBlog={false}
+              title="Nsro - Logo"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ten}
+              isBlog={false}
+              title="Azmo Store - Logo"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={eleven}
+              isBlog={false}
+              title="Germany Motors - Logo"
             />
           </Col>
         </Row>
