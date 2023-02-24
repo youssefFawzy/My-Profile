@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "";
+  "https://yfawzy.com/static/media/Fawzy-CV.287cbead8503b5febc04.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
