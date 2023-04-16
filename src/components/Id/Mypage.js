@@ -4,7 +4,7 @@ import Particle from "../Particle";
 function Id() {
   return (
     <div>
-      
+        <Particle />
     </div>
   );
 }
