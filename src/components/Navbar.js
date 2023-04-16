@@ -98,7 +98,7 @@ function NavBar() {
                 to="/id"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> C.V.
+                <CgFileDocument style={{ marginBottom: "2px" }} /> ID
               </Nav.Link>
             </Nav.Item>
 
