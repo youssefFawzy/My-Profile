@@ -3,7 +3,7 @@ import React from "react";
 function Id() {
   return (
     <div>
-      <iframe src="/page.html" title="My HTML Page"></iframe>
+      <iframe src={process.env.PUBLIC_URL + "/page.html"} title="My HTML Page"></iframe>
     </div>
   );
 }
