@@ -49,10 +49,6 @@ function Id() {
           <img src="https://source.unsplash.com/MP0IUfwrn0A" className="rounded-none lg:rounded-lg shadow-2xl hidden lg:block" />
           {/* Image from: http://unsplash.com/photos/MP0IUfwrn0A */}
         </div>
-        {/* Pin to top right corner */}
-        <div className="absolute top-0 right-0 h-12 w-18 p-4">
-          <button className="js-change-theme focus:outline-none">🌙</button>
-        </div>
       </div>
     </div>
   );
