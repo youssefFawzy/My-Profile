@@ -52,7 +52,7 @@ function Id() {
             style={{
               justifyContent: "center",
               paddingTop: "30px",
-              paddingBottom: "150px",
+              paddingBottom: "50px",
             }}
           >
           </Col>
