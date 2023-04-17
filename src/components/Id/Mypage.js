@@ -6,12 +6,30 @@ import laptopImg from "../../Assets/about.png";
 function handleSaveContact() {
   const contact = {
     name: "Youssef Fawzy",
-    tel: "+201010606212"
+    tel: "+201010606212",
+    email: "youssefawzy3@gmail.com",
+    website: "https://yfawzy.com",
+    socialMedia: {
+      twitter: "https://twitter.com/yousseffawzy",
+      linkedIn: "https://www.linkedin.com/in/yousseffawzy/"
+    }
   };
+  
+  const vcard = `BEGIN:VCARD
+VERSION:3.0
+N:${contact.name}
+TEL:${contact.tel}
+EMAIL:${contact.email}
+URL:${contact.website}
+END:VCARD`;
 
-  const shareUrl = `tel:${contact.tel}`;
+  const shareUrl = `data:text/vcard;charset=utf-8,${encodeURIComponent(vcard)}`;
 
-  if (navigator.share) {
+  const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+
+  if (isIOS) {
+    window.open(shareUrl, "_blank");
+  } else if (navigator.share) {
     navigator.share({
       title: contact.name,
       url: shareUrl
@@ -20,6 +38,7 @@ function handleSaveContact() {
     window.location.href = shareUrl;
   }
 }
+
 
 
 function Id() {
