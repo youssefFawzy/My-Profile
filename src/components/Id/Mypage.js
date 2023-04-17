@@ -3,6 +3,25 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import laptopImg from "../../Assets/about.png";
 
+function handleSaveContact() {
+  const contact = {
+    name: "Youssef Fawzy",
+    tel: "+201010606212"
+  };
+
+  const shareUrl = `tel:${contact.tel}`;
+
+  if (navigator.share) {
+    navigator.share({
+      title: contact.name,
+      url: shareUrl
+    });
+  } else {
+    window.location.href = shareUrl;
+  }
+}
+
+
 function Id() {
   return (
     <div>
@@ -42,6 +61,10 @@ function Id() {
             <button className="bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 rounded-full">
                 <a href="tel:+201010606212">Get In Touch</a>
             </button>
+            <button className="bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 rounded-full" onClick={handleSaveContact}>
+  Save Contact
+</button>
+
 
             </div>
             <div className="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between">
