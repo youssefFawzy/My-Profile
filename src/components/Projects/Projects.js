@@ -13,6 +13,20 @@ import eight from "../../Assets/Projects/8.png";
 import nine from "../../Assets/Projects/9.png";
 import ten from "../../Assets/Projects/10.png";
 import eleven from "../../Assets/Projects/11.png";
+import twelve from "../../Assets/Projects/12.png";
+import thirteen from "../../Assets/Projects/13.png";
+import fourteen from "../../Assets/Projects/14.png";
+import fivteen from "../../Assets/Projects/15.png";
+import sixteen from "../../Assets/Projects/16.png";
+import seventeen from "../../Assets/Projects/17.png";
+import eighteen from "../../Assets/Projects/18.png";
+import nineteen from "../../Assets/Projects/19.png";
+import twenty from "../../Assets/Projects/20.png";
+import twentyone from "../../Assets/Projects/21.png";
+import twentytwo from "../../Assets/Projects/22.png";
+import twentythree from "../../Assets/Projects/23.png";
+import twentyfour from "../../Assets/Projects/24.png";
+import twentyfive from "../../Assets/Projects/25.png";
 
 function Projects() {
   return (
@@ -113,6 +127,119 @@ function Projects() {
               title="Germany Motors - Logo"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={twelve}
+              isBlog={false}
+              title="Germany Motors - Logo"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={thirteen}
+              isBlog={false}
+              title="Germany Motors - Logo"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={fourteen}
+              isBlog={false}
+              title="Germany Motors - Logo"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={fivteen}
+              isBlog={false}
+              title="Germany Motors - Logo"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={sixteen}
+              isBlog={false}
+              title="Germany Motors - Logo"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={seventeen}
+              isBlog={false}
+              title="Germany Motors - Logo"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={eighteen}
+              isBlog={false}
+              title="Germany Motors - Logo"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={nineteen}
+              isBlog={false}
+              title="Germany Motors - Logo"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={twenty}
+              isBlog={false}
+              title="Germany Motors - Logo"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={twentyone}
+              isBlog={false}
+              title="Germany Motors - Logo"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={twentytwo}
+              isBlog={false}
+              title="Germany Motors - Logo"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={twentythree}
+              isBlog={false}
+              title="Germany Motors - Logo"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={twentyfour}
+              isBlog={false}
+              title="Germany Motors - Logo"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={twentyfive}
+              isBlog={false}
+              title="Germany Motors - Logo"
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>
