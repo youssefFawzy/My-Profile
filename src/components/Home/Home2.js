@@ -4,11 +4,11 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
+  AiFillFacebook,
   AiFillInstagram,
+  AiOutlineWhatsApp,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
-import { BiLogoFacebook } from "react-icons/bi";
+// import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -77,7 +77,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <BiLogoFacebook />
+                  <AiFillFacebook />
                 </a>
               </li>
               <li className="social-icons">
@@ -87,7 +87,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <FaLinkedinIn />
+                  <AiOutlineWhatsApp />
                 </a>
               </li>
               <li className="social-icons">
