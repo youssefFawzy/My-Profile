@@ -8,6 +8,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { BiLogoFacebook } from "react-icons/bi";
 
 function Home2() {
   return (
@@ -76,7 +77,7 @@ function Home2() {
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <BiLogoFacebook />
                 </a>
               </li>
               <li className="social-icons">
