@@ -72,7 +72,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/"
+                  href="https://www.facebook.com/youssef.fawzy.311/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -82,7 +82,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/"
+                  href="https://wa.link/bbtcp3/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
