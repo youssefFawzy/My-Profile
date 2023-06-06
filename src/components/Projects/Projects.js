@@ -24,7 +24,6 @@ import nineteen from "../../Assets/Projects/19.png";
 import twenty from "../../Assets/Projects/20.png";
 import twentyone from "../../Assets/Projects/21.png";
 import twentytwo from "../../Assets/Projects/22.png";
-import twentythree from "../../Assets/Projects/23.png";
 import twentyfour from "../../Assets/Projects/24.png";
 import twentyfive from "../../Assets/Projects/25.png";
 
@@ -211,14 +210,6 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={twentytwo}
-              isBlog={false}
-              title="Germany Motors - Logo"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={twentythree}
               isBlog={false}
               title="Germany Motors - Logo"
             />
